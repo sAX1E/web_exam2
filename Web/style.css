@@ -1,0 +1,164 @@
+body {
+	background-color: #f2f3f0 !important;
+}
+nav {
+	background-color: #354d6e;
+}
+nav span{
+	color: #f2f3f0 !important;
+}
+h6, span {
+	font-size: 16px;
+}
+.bi-compass, .bi-translate, .bi-geo-alt, .bi-person-check, .bi-bus-front-fill, .bi-percent, .bi-fire, .bi-cloud-rain, .bi-coin {
+	font-size: 50px;
+	color: #f2f3f0;
+}
+.navbar-brand {
+	text-align: right;
+}
+.logoName {
+	font-size: 25px;
+	color: #f2f3f0 !important;
+}
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+.text-overlay1 {
+  position: absolute;
+  top: 370px;
+  left: 220px;
+  transform: translate(-50%, -50%);
+  color: #f2f3f0;
+  font-size: 100px;
+  font-weight: bold;
+}
+.text-overlay2 {
+  position: absolute;
+  top: 320px;
+  left: 72px;
+  transform: translate(-50%, -50%);
+  color: #f2f3f0;
+  font-size: 20px;
+}
+.jumbContainer {
+	width: 100%;
+	position: block;
+	margin: 0 0 0 0 !important;
+	height: 160px;
+	background-color: #354d6e;
+	text-align: center;
+	color: #f2f3f0;
+	padding-top: 45px;
+}
+.description {
+	text-align: center; 
+	padding-top: 8%;
+}
+.headerText2 {
+	text-align: center;
+}
+.card{
+	background-color: #354d6e !important;
+	margin: 20px 10px 20px 10px;
+	height: 200px !important;
+	border-width: 0px !important;
+	text-align: center;
+}
+.card-body {
+	position: absolute;
+	bottom: 5px;
+	left: 5px;
+	right: 5px;
+	top: 25px;
+	color: #f2f3f0 !important;
+}
+.icon {
+	margin-bottom: 10px;
+}
+td, th {
+	vertical-align: middle;
+	border-color: #b0b0b0 !important;
+	border-style: solid !important;
+	border-width: 1px !important;
+	text-align: center !important;
+}
+th {
+	background-color: #c8c8c8 !important;
+}
+.formGroup {
+  display: flex;
+  align-items: center; 
+}
+label {
+  margin-right: 10px;
+}
+.tooltip-inner {
+  max-width: 400px !important;
+  white-space: pre-wrap;
+}
+.guides {
+	display: none;
+}
+.alert {
+	display: none;
+}
+.active {
+	display: block !important;
+}
+.modal-body {
+	font-size: 15px !important;
+}
+.form-control {
+	margin-bottom: 15px !important;
+}
+.form-select {
+	margin-bottom: 15px !important;
+}
+footer {
+	height: 200px;
+	padding-top: 35px;
+	background-color: #354d6e;
+	color: #f2f3f0;
+}
+#orderBtn {
+	width: 300px;
+}
+.exp {
+	width: 80px !important;
+	margin-right: 10px;
+}
+#nameSearch {
+	margin-bottom: 15px;
+}
+
+
+@media (min-width: 300px) and (max-width: 670px) {
+	.imgContainer {
+		display: none;
+	}
+	.officeLink {
+		position: relative;
+		top: 14px;
+	}
+	.cards {
+		padding: 0 0 0 0;
+	}
+	.card {
+		margin: 15px 3px 15px 3px;
+		height: 210px !important;
+	}
+	td, th {
+		font-size: 10px;
+		padding: 5px 0 5px 0 !important;
+	}
+	#selectButton {
+		font-size: 10px;
+		padding: 3px 5px 3px 5px !important;
+	}
+	.page-link {
+		font-size: 10px !important;
+		padding: 5px 10px 5px 10px !important;
+	}
+}
